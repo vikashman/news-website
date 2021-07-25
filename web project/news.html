@@ -1,0 +1,268 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>thesoftechissue</title>
+    <link rel="stylesheet" href="news.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section>
+        <div id="banner">
+         <img src="website/logo.png" class="logo">
+         <div class="banner-text">
+          <h1>World's Biggest News</h1>
+          <p>Get The Tech Updates</p>
+          <div class="banner-btn">
+           <a href="https://zeenews.india.com/top-news"><span></span>Learn More</a>
+          </div>
+         </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+      <nav>
+          <ul>
+            <li><a href="#banner">HOME</a></li>
+            <li><a href="#footer">ABOUT US</a></li>
+            <li><a href="#feature">FEATURES</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#testimonial">TESTIMONIAL</a></li>
+            <li><a href="#footer">CONTACT</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <div id="menuBtn">
+      <img src="website/menu.png" id="menu">
+  </div>
+
+  <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+    menuBtn.onclick = function(){
+      if(sideNav.style.right == "-250px"){
+        sideNav.style.right = "0";
+        menu.src = "website/close.png";
+      }
+      else{
+        sideNav.style.right = "-250px";
+        menu.src = "website/menu.png";
+      }
+    }
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+  </script>
+
+<!-- features -->
+  
+<section id="feature">
+ <div class="title-text">
+  <p>FEATURES</p>
+  <h1>Why Read Us</h1>
+  </div>
+  <div class="feature-box">
+  <div class="features">
+  <h1>Latest News</h1>
+  <div class="features-desc">
+<div class="features-text">
+<p>News is information about current events. This may be provided through many different media: word of mouth, printing, postal systems, broadcasting, electronic communication, or through the testimony of observers and witnesses to events. News is sometimes called "hard news" to differentiate it from soft media.
+
+  Common topics for news reports include war, government, politics, education, health, the environment, economy, business, fashion, and entertainment, as well as athletic events, quirky or unusual events. Government proclamations, concerning royal ceremonies, laws, taxes, public health, and criminals, have been dubbed news since ancient times. Technological and social developments, often driven by government communication and espionage networks, have increased the speed with which news can spread, as well as influenced its content. The genre of news as we know it today is closely associated with the newspaper.</p>
+</div>
+  </div>
+  </div>
+  <div class="features-img">
+   <img src="website/stop covid 19.png" alt="">
+  </div>
+  </div>
+</section>
+
+<!-- service -->
+
+<section id="service">
+  <div class="title-text">
+    <p>SERVICES</p>
+    <h1>We Provide Top News</h1>
+    </div>
+    <div class="service-box">
+    <div class="single-service">
+      <img src="website/tren-lg-1.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+       <h3>Bitcoin News</h3>
+       <p>"Bitcoin may be a digital currency that was created in January 2009. It follows the ideas began during a whitepaper by the mysterious and pseudonymous Satoshi Nakamoto."</p>
+       <div class="service-btn">
+        <a href="https://theengineeringissue.com/what-is-bitcoin-how-to-buy-bitcoins-in-india-all-things-about-bitcoin/#more-226"><span></span>Read More</a>
+       </div>
+      </div>
+    </div>
+    <div class="single-service">
+      <img src="website/featured-lg.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Stock Market News</h3>
+        <p>"A stock market, equity market, or share market is the aggregation of buyers and sellers of stocks,these may include securities listed on a public stock ..."</p>
+        <div class="service-btn">
+          <a href="https://www.moneycontrol.com/stocksmarketsindia/"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    <div class="single-service">
+      <img src="website/covid 19.png" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Covid 19 News</h3>
+        <p>"The announcement by his office on Sunday reverses an earlier statement that unlike most people, he would not face quarantine. Johnson met Friday with Health Secretary Sajid Javid, who later tested positive for COVID-19."</p>
+        <div class="service-btn">
+          <a href="https://timesofindia.indiatimes.com/india/coronavirus-india-live-updates-covid-cases-news-july-21-2021/liveblog/84603543.cms"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    <div class="single-service">
+      <img src="website/millionar.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Business News</h3>
+        <p>“If you want to change the fruits, you will first have to change the roots. If you want to change the visible, you must first change the invisible.”</p>
+        <div class="service-btn">
+          <a href="https://indianexpress.com/section/business/"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    <div class="single-service">
+      <img src="website/sport.jpeg" alt="">
+      <div class="overlay"></div> 
+      <div class="service-desc">
+        <h3>Latest Sports News </h3>
+        <p>"Sport is commonly defined as an athletic activity that involves a degree of competition, such as netball or basketball. Some games and many kinds of racing are called sports. ... Sports can be played indoors or outdoors and by individuals or teams."</p>
+        <div class="service-btn">
+          <a href="https://www.cricbuzz.com/"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    <div class="single-service">
+      <img src="website/automobiles.jpeg" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Automobiles News</h3>
+        <p>"Automobile, byname auto, also called motorcar or car, a usually four-wheeled vehicle designed primarily for passenger transportation and commonly propelled by an internal-combustion engine using a volatile fuel."</p>
+        <div class="service-btn">
+          <a href="https://www.indiatoday.in/auto/latest-auto-news"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    <div class="single-service">
+      <img src="website/eletronic.jpeg" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Electronic Product </h3>
+        <p>"Electronic Products means software products made available via electronic media. Sample 2. Sample 3. Electronic Products means computer monitors, televisions, computers (mainframe, desktop and laptop computers); and cell phones."</p>
+        <div class="service-btn">
+          <a href="https://www.amazon.in/Electronic-Product/s?k=Electronic+Product"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    <div class="single-service">
+      <img src="website/education.jpg" alt="">
+      <div class="overlay"></div>
+      <div class="service-desc">
+        <h3>Education World</h3>
+        <p>"Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits.And Education is a success of key."</p>
+        <div class="service-btn">
+          <a href="https://www.ndtv.com/education"><span></span>Read More</a>
+         </div>
+       </div>
+    </div>
+    </div>
+</section>
+
+<!-- Testimonial -->
+
+<section id="testimonial">
+  <div class="title-text">
+    <p>TESTIMONIAL</p>
+    <h1>What Visiter Says</h1>
+    </div>
+    <div class="testimonial-row">
+      <div class="testimonial-col">
+        <div class="user">
+         <img src="website/img-1.jpg" alt="">
+         <div class="user-info">
+           <h4>JONES KEVON</h4>
+         </div>
+        </div>
+        <p>Provided you are logged in when visiting, your own views are not recorded on any public blog you registered. Our stats are page view stats. Please do not assume that everyone who clicks a like button actually reads the post on your blog because odds are they may not.</p>
+      </div>
+      <div class="testimonial-col">
+        <div class="user">
+         <img src="website/img-2.jpg" alt="">
+         <div class="user-info">
+          <h4>KYLION</h4>
+         </div>
+        </div>
+        <p>Provided you are logged in when visiting, your own views are not recorded on any public blog you registered. Our stats are page view stats. </p>
+      </div>
+      <div class="testimonial-col">
+        <div class="user">
+         <img src="website/img-3.jpg" alt="">
+         <div class="user-info">
+          <h4>BEN STOCK</h4>
+         </div>
+        </div>
+        <p>Our stats are page view stats. Please do not assume that everyone who clicks a like button actually reads the post on your blog because odds are they may not.Google Analytics will provide you with each and every information about your online visitors.</p>
+      </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<section id="footer">
+  <div class="title-text">
+    <p>CONTACT</p>
+    <h1>Visit My Site Today</h1>
+    </div>
+ <div class="footer-row">
+ <div class="footer-left">
+    <h1>About Us</h1>
+    <p>Welcome to our site! Thank you for visiting.
+      <br>
+      This site was really built with you in mind and we hope you will find it useful.
+      <br>
+      Your comments or questions are of course welcome.
+      <br>
+       Thanks!
+      </p>
+ </div>
+ <div class="footer-right">
+    <h1>Address</h1>
+     <p>Garhi chaukhandi sector-68,noida</p>
+     <p>Example@gmail.com</p>
+     <p>+91 9999XXXXXX</p>
+ </div>
+ </div>
+ <div class="contact-section">
+  <h1>Get In Touch</h1>
+  <div class="border"></div>
+  <form class="contact-form" action="index.html" method="post">
+    <input type="text" class="contact-form-text" placeholder="Your name">
+    <input type="email" class="contact-form-text" placeholder="Your email">
+    <input type="text" class="contact-form-text" placeholder="Your phone">
+    <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+
+</section>
+</body>
+</html>
